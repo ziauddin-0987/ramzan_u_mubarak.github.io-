@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="email" placeholder="email">
+    <br>
+    <br>
+    <input type="password" id="password" placeholder="password">
+    <button onclick="zia()">sub</button>
+    <script>function zia() {
+            const emai = document.getElementById("email").Value;
+            const pass = document.getElementById("password").Value;
+            if (
+                emai == "zia@gmail.com" &&
+                pass == "ziauddin"
+                // (emai == "q@gmail.com" && pass == "quayyem")
+            ) {
+                alert("your correact email and password");
+                // console.log("your correact email and password");
+            } else {
+                 console.log("not validede youe email and password");
+            }
+        }</script>
+</body>
+
+</html>
